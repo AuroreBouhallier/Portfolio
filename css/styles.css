@@ -1,0 +1,174 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1,h2 {
+    font-weight: bold;
+    font-size:large;
+    padding: 0px 0px 10px;
+}
+
+header {
+    background:rgb(116, 2, 116);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color:black
+}
+
+#about {
+    text-align: left;
+    width: 60%;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills-logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /*flex-direction: column;*/
+}
+
+button {
+    background-color: #555;
+    color:  white;
+    padding: 10px 10px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+}
+
+footer {
+    background:rgb(116, 2, 116);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode section {
+    background-color: #555;
+    color: white;
+}
+
+/* page contact */
+
+ #contact {
+    width: 40%;
+ }
+
+.label {
+    font-weight: bold;
+    margin: 10px;
+    color: black;
+}
+
+.dark-mode .label {
+    color: white;
+}
+
+.input, .textarea {
+    background-color: #f4f4f4;
+    color: black;
+}
+.dark-mode .input, .dark-mode .textarea {
+    background-color:white;
+    color: black; 
+}
+
+.dark-mode button {
+    background-color: white;
+    color: black;
+}
+
+
+
+/*@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column ;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 5px 5px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 5px;
+    }
+}
